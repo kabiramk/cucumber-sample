@@ -7,6 +7,7 @@ Feature: Example of a feature file
   Scenario: A simple passing scenario => PASSED
     Given the letter "A"
     When I check the letter
+    When I check the letter B
     Then the letter should be "A"
 
   # This should fail
